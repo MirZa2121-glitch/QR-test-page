@@ -8,14 +8,15 @@
     --padding: 0 15px;
     --margin: 0 auto;
 
-    --qr-width: 300px;
+    --qr-width: 280px;
     --qr-height: 480px;
 
     --default-font-size: 15px;
     --first-font-size: 15px;
-    --second-font-size: 22px;
+    --second-font-size: 20px;
     --third-font-size: 26px;
     --four-font-size: 14px;
+    --five-font-size: 18px;
 }
 
 .container {
@@ -25,7 +26,8 @@
 }
 
 .block-1__inner{
-    padding: 150px 0;
+    width: 100%;
+    margin: 130px 0;
 }
 
 .block-1__wrapper {
@@ -37,14 +39,13 @@
 }
 
 .qr-block {
-    background-color: var(--first-color);
     top: 0;
     right: 0;
 }
 
 .qr-bcg {
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     background-image: url(../img/details/image-qr-code.png);
     border-radius: 18px;
 
@@ -76,21 +77,24 @@
 .text {
     width: 268px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .title {
-    width: 248px;
+    width: 260px;
     margin: 20px auto;
     font-size: var(--second-font-size);
-    font-weight: 700;
+    font-weight: 800;
     line-height: 30px;
     color: var(--third-color);
 }
 
 .description {
+    width: 257px;
     font-size: var(--first-font-size);
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
+    margin: 0 auto;
     color: var(--second-color);
 }
 
