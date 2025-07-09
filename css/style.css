@@ -27,7 +27,7 @@
 
 .block-1__inner{
     width: 100%;
-    margin: 130px 0;
+    margin: 150px 0;
 }
 
 .block-1__wrapper {
@@ -93,7 +93,7 @@
     width: 257px;
     font-size: var(--first-font-size);
     font-weight: 400;
-    line-height: 20px;
+    line-height: 23px;
     margin: 0 auto;
     color: var(--second-color);
 }

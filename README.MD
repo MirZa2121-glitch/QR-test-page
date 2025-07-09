@@ -54,27 +54,3 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-# Hover animation for card
-
-.qr {
-    width: var(--qr-width);
-    height: var(--qr-height);
-
-    padding: 15px 0;
-    border-radius: 18px;
-
-    // 2 Transition trnasform 0.3s ease-in
-
-    transition-duration: .3s;
-    transition: transform 0.3 ease-in;
-
-    text-align: center;
-    background-color: var(--four-color);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-// 1 transform scale 1.1 (default)
-
-.qr:hover {
-    transform: scale(1.1);
-}
